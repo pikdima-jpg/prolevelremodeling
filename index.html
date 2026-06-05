@@ -16,13 +16,13 @@
     header {
       background: #ffffff;
       text-align: center;
-      padding: 20px 20px 40px 20px;
+      padding: 20px 20px 35px 20px;
       border-bottom: 1px solid #e6e6e6;
     }
 
     .logo-banner {
       width: 100%;
-      max-width: 1250px;
+      max-width: 1350px;
       height: auto;
       display: block;
       margin: 0 auto 25px auto;
@@ -53,7 +53,7 @@
     }
 
     section {
-      max-width: 1150px;
+      max-width: 1200px;
       margin: auto;
       padding: 45px 20px;
     }
@@ -65,43 +65,67 @@
       color: #222222;
     }
 
-    .about,
-    .highlight,
-    .areas,
-    .contact {
-      background: #ffffff;
+    .intro {
+      background: #f7f7f7;
+      text-align: center;
       line-height: 1.7;
     }
 
-    .hero-gallery {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-      gap: 16px;
-      padding-top: 20px;
+    .intro p {
+      max-width: 900px;
+      margin: 12px auto;
+      font-size: 18px;
     }
 
-    .hero-gallery img,
+    .trust {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+      margin-top: 25px;
+    }
+
+    .trust-box {
+      background: #ffffff;
+      border: 1px solid #e6e6e6;
+      border-radius: 8px;
+      padding: 18px;
+      font-weight: bold;
+    }
+
+    .project {
+      margin-bottom: 45px;
+      background: #ffffff;
+      border: 1px solid #e6e6e6;
+      border-radius: 10px;
+      padding: 25px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    }
+
+    .project h3 {
+      font-size: 26px;
+      margin-top: 0;
+      color: #222222;
+    }
+
+    .project p {
+      line-height: 1.6;
+      color: #444444;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 15px;
+      margin-top: 18px;
+    }
+
     .gallery img {
       width: 100%;
-      height: 240px;
+      height: 230px;
       object-fit: cover;
       border-radius: 8px;
       background: #eeeeee;
-    }
-
-    .highlight {
-      background: #f7f7f7;
-      text-align: center;
-      border-top: 1px solid #e5e5e5;
-      border-bottom: 1px solid #e5e5e5;
-    }
-
-    .highlight p {
-      font-size: 19px;
-      max-width: 850px;
-      margin: 0 auto;
-      line-height: 1.7;
-      color: #444444;
+      border: 1px solid #e6e6e6;
     }
 
     .services {
@@ -123,12 +147,6 @@
       color: #222222;
     }
 
-    .gallery {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 15px;
-    }
-
     .areas {
       text-align: center;
       font-size: 18px;
@@ -138,6 +156,8 @@
 
     .contact {
       text-align: center;
+      background: #ffffff;
+      line-height: 1.7;
     }
 
     .contact h3 {
@@ -167,7 +187,6 @@
         font-size: 26px;
       }
 
-      .hero-gallery img,
       .gallery img {
         height: 210px;
       }
@@ -192,40 +211,100 @@
   </a>
 </header>
 
-<section>
-  <div class="hero-gallery">
-    <img src="IMG_0014.jpeg" alt="Bathroom remodeling project in Marietta GA">
-    <img src="IMG_0031.jpeg" alt="Tile installation project in Metro Atlanta">
-    <img src="IMG_0036.jpeg" alt="Drywall and painting project">
-  </div>
-</section>
-
-<section class="about">
+<section class="intro">
   <h2>Professional Remodeling & Repair Services</h2>
 
   <p>
-    ProLevel Remodeling provides professional bathroom remodeling, tile installation,
-    drywall repair, painting, carpentry, flooring installation, deck repair,
-    window and door repair, and general home repair services in Marietta and Metro Atlanta.
+    ProLevel Remodeling provides bathroom remodeling, steam room construction, tile installation,
+    drywall repair, painting, carpentry, flooring, cabinet installation, rotten wood repair,
+    and home improvement services in Marietta and Metro Atlanta.
   </p>
 
-  <p>
-    We focus on clean work, reliable communication, and high-quality results for every project.
-    Prefer texting? Send a short description of your project, your location, and a few photos.
-  </p>
+  <div class="trust">
+    <div class="trust-box">Free Estimates</div>
+    <div class="trust-box">Insured</div>
+    <div class="trust-box">Clean Work</div>
+    <div class="trust-box">Reliable Communication</div>
+  </div>
 </section>
 
-<section class="highlight">
-  <h2>Bathroom Remodeling</h2>
+<section>
+  <h2>Featured Projects</h2>
 
-  <p>
-    We help homeowners update bathrooms with tile showers, shower walls, bathroom floors,
-    vanities, trim, drywall, painting, and full bathroom repair or remodeling work.
-  </p>
+  <div class="project">
+    <h3>Steam Room & Bathroom Remodeling</h3>
+    <p>
+      Custom steam room and bathroom remodeling work including tile installation,
+      waterproofing, wall preparation, finishing, and detailed installation.
+    </p>
 
-  <a class="btn" href="sms:+19548688804?body=Hi%20ProLevel%20Remodeling,%20I%20would%20like%20an%20estimate%20for%20bathroom%20remodeling.">
-    Text About Bathroom Remodeling
-  </a>
+    <div class="gallery">
+      <img src="IMG_3530.jpeg" alt="Steam room remodeling project in Marietta GA">
+      <img src="IMG_3626.jpeg" alt="Bathroom remodeling and steam room construction">
+      <img src="IMG_3627.jpeg" alt="Tile shower and steam room installation">
+      <img src="IMG_3616.jpeg" alt="Custom bathroom remodeling work">
+      <img src="IMG_3529.jpeg" alt="Steam room tile installation project">
+      <img src="IMG_3531.jpeg" alt="Bathroom remodel finished project">
+    </div>
+  </div>
+
+  <div class="project">
+    <h3>Cabinet Installation</h3>
+    <p>
+      Cabinet installation, leveling, fastening, adjustment, and finish work for kitchen,
+      garage, laundry, and storage areas.
+    </p>
+
+    <div class="gallery">
+      <img src="IMG_1961.jpeg" alt="Cabinet installation project">
+      <img src="IMG_0624.jpeg" alt="Kitchen cabinet installation">
+      <img src="IMG_1028.jpeg" alt="Cabinet mounting and leveling">
+      <img src="IMG_0093.jpeg" alt="Installed cabinets in home">
+      <img src="IMG_0027.jpeg" alt="Custom cabinet installation work">
+      <img src="IMG_4299.jpeg" alt="Finished cabinet installation">
+    </div>
+  </div>
+
+  <div class="project">
+    <h3>Rotten Wood Repair & Restoration</h3>
+    <p>
+      Exterior wood repair, rotten wood replacement, trim repair, sanding, caulking,
+      preparation, and painting for long-lasting results.
+    </p>
+
+    <div class="gallery">
+      <img src="IMG_3726.jpeg" alt="Rotten wood repair before restoration">
+      <img src="IMG_3786.jpeg" alt="Exterior wood restoration project">
+      <img src="IMG_3788.jpeg" alt="Repaired rotten wood trim">
+      <img src="IMG_3792.jpeg" alt="Finished rotten wood repair and painting">
+    </div>
+  </div>
+
+  <div class="project">
+    <h3>Floor Tile Installation</h3>
+    <p>
+      Floor tile installation, layout, cutting, setting, grout, and finish work for bathrooms,
+      kitchens, laundry rooms, and other home areas.
+    </p>
+
+    <div class="gallery">
+      <img src="IMG_4826.jpeg" alt="Floor tile installation project">
+      <img src="IMG_4822.jpeg" alt="Finished floor tile installation">
+    </div>
+  </div>
+
+  <div class="project">
+    <h3>Drywall & New Wall Construction</h3>
+    <p>
+      Drywall installation, new wall framing, drywall finishing, sanding, priming,
+      painting, and wall repair.
+    </p>
+
+    <div class="gallery">
+      <img src="IMG_4602.jpeg" alt="Drywall installation and new wall construction">
+      <img src="IMG_4603.jpeg" alt="Finished drywall and wall repair project">
+    </div>
+  </div>
 </section>
 
 <section>
@@ -235,6 +314,11 @@
     <div class="card">
       <h3>Bathroom Remodeling</h3>
       <p>Tile showers, vanities, flooring, drywall, trim, painting, and bathroom updates.</p>
+    </div>
+
+    <div class="card">
+      <h3>Steam Room Construction</h3>
+      <p>Steam room preparation, waterproofing, tile installation, and custom bathroom upgrades.</p>
     </div>
 
     <div class="card">
@@ -258,34 +342,14 @@
     </div>
 
     <div class="card">
-      <h3>Deck & Wood Repair</h3>
-      <p>Deck boards, deck posts, stairs, railings, rotten wood replacement, and exterior repairs.</p>
+      <h3>Cabinet Installation</h3>
+      <p>Cabinet installation, adjustment, wall mounting, hardware installation, and repair.</p>
     </div>
 
     <div class="card">
       <h3>Window & Door Repair</h3>
       <p>Window trim repair, exterior caulking, door repair, weather stripping, and hardware installation.</p>
     </div>
-
-    <div class="card">
-      <h3>Handyman Services</h3>
-      <p>Furniture assembly, small repairs, fixture replacement, cabinet repair, and general home improvements.</p>
-    </div>
-  </div>
-</section>
-
-<section>
-  <h2>Recent Work</h2>
-
-  <div class="gallery">
-    <img src="IMG_0014.jpeg" alt="Bathroom remodeling project in Marietta GA">
-    <img src="IMG_0031.jpeg" alt="Drywall repair and painting project in Metro Atlanta">
-    <img src="IMG_0032.jpeg" alt="Carpentry and trim repair project">
-    <img src="IMG_0036.jpeg" alt="Tile installation and bathroom repair">
-    <img src="IMG_0051.jpeg" alt="Flooring and home repair project">
-    <img src="IMG_0064.jpeg" alt="Interior remodeling project in Atlanta area">
-    <img src="IMG_0076.jpeg" alt="Painting and drywall repair work">
-    <img src="IMG_0405.jpeg" alt="Home remodeling and repair project">
   </div>
 </section>
 
